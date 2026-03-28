@@ -594,6 +594,7 @@ box-shadow:0 0 12px rgba(82,214,138,0.4);
 flex-direction:column-reverse;
 text-align:center;
 font-size:14px;
+ padding:40px 5%
 }
 
 .menu{
@@ -603,15 +604,38 @@ gap: 4px;
 padding: 5px 8px;
 }
 nav a{
-font-size:10px;
-padding: 4px 8px;
+font-size:14px;
+padding: 6px 10px;
 letter-spacing: 1px;
 }
 .text h1{
-font-size:36px;
+font-size:42px;
 }
 details{
     height: auto;
+}
+ .tech-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+}
+
+.front{
+max-width:100%;
+}
+
+ .one-content{
+flex-direction:column;
+align-items:center;
+text-align:center;
+}
+
+.one .oneimage img{
+width:80%;
+}
+
+.options{
+width:100%;
 }
 
 .edu-card{
@@ -631,12 +655,16 @@ max-width:90%;
 margin:auto;
 }
 .abt p{
-font-size:10px;
+font-size:14px;
 padding:20px;
 }
 
 .abt h1{
 font-size:28px;
+}
+ .views, .view{
+height:45px;
+font-size:14px;
 }
 
 }
