@@ -590,69 +590,41 @@ box-shadow:0 0 12px rgba(82,214,138,0.4);
 
 @media screen and (max-width:800px){
 
-body {
-  padding-top: 70px;
-}
-
 .me{
 flex-direction:column-reverse;
 text-align:center;
-font-size:16px;
-padding:30px 5%;
+font-size:14px;
+ padding:40px 5%
 }
 
 .menu{
 text-align:center;
 justify-content: center;
-gap: 2px;
-padding: 6px 4px;
-flex-wrap: wrap;
+gap: 4px;
+padding: 5px 8px;
 }
 nav a{
-font-size:15px;
-padding: 8px 10px;
-letter-spacing: 0.5px;
-min-height: 44px;
-display: flex;
-align-items: center;
-}
-.text h1{
-font-size:34px;
+font-size:14px;
+padding: 6px 10px;
 letter-spacing: 1px;
 }
-
-.text p {
-font-size: 15px;
-line-height: 1.7;
-padding: 20px;
+.text h1{
+font-size:42px;
 }
-
 details{
-height: auto;
+    height: auto;
 }
-
-.tech-grid{
+ .tech-grid{
 display:grid;
 grid-template-columns:1fr 1fr;
-gap:12px;
+gap:15px;
 }
 
 .front{
 max-width:100%;
-padding: 16px;
 }
 
-.html, .css {
-font-size: 15px;
-padding: 14px 16px;
-min-height: 52px;
-}
-
-.html img, .css img {
-height: 32px;
-}
-
-.one-content{
+ .one-content{
 flex-direction:column;
 align-items:center;
 text-align:center;
@@ -662,90 +634,37 @@ text-align:center;
 width:80%;
 }
 
-.one summary {
-font-size: 16px;
-padding: 18px 16px;
-min-height: 52px;
-}
-
-.proj-sub {
-font-size: 13px;
-}
-
 .options{
 width:100%;
 }
 
-.views, .view{
-min-height: 52px;
-font-size: 15px;
-padding: 0 12px;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
-article a {
-font-size: 15px;
-padding: 14px;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-
 .edu-card{
-width: 85%;
-margin-left: 25px;
-padding: 20px;
-border-radius: 20px;
-background: linear-gradient(135deg, rgba(82,214,138,0.06) 0%, rgba(255,255,255,0.03) 100%);
-border: 1px solid rgba(255,255,255,0.08);
-position: relative;
-transition: 0.3s;
-}
-
-.edu-card h2 {
-font-size: 18px;
-}
-
-.edu-card p {
-font-size: 14px;
+    width: 85%;
+margin-left:25px;
+padding:25px;
+border-radius:20px;
+background:linear-gradient(135deg, rgba(82,214,138,0.06) 0%, rgba(255,255,255,0.03) 100%);
+border:1px solid rgba(255,255,255,0.08);
+position:relative;
+transition:0.3s;
 }
 
 .text p{
-padding: 20px;
-max-width: 95%;
-margin: auto;
+padding:25px;
+max-width:90%;
+margin:auto;
 }
-
 .abt p{
-font-size: 15px;
-line-height: 1.7;
-padding: 20px;
+font-size:14px;
+padding:20px;
 }
 
-.abt h1 {
-font-size: 26px;
+.abt h1{
+font-size:28px;
 }
-
-.tech h1, .edu h1, .proj h1 {
-font-size: 22px;
-}
-
-.abt, .tech {
-padding: 30px 20px;
-}
-
-.edu {
-padding: 30px 20px;
-}
-
-.proj fieldset {
-padding: 20px 15px;
-}
-
-legend {
-font-size: 13px;
+ .views, .view{
+height:45px;
+font-size:14px;
 }
 
 }
